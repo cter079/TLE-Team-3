@@ -12,6 +12,10 @@ body {
     height: 100%;
     place-items: center;
 }
+.background{
+    filter: blur(2px);
+    width: 100vw;
+}
 
 ::selection {
     color: #fff;
@@ -39,8 +43,9 @@ body {
     width: 370px;
     background: #fff;
     border-radius: 5px;
-    border: 1px solid lightgrey;
+    border: 8px solid rgb(0, 0, 0);
     border-top: 0px;
+    position: absolute;
 }
 
 .wrapper .title {
@@ -50,8 +55,6 @@ body {
     font-weight: 500;
     line-height: 60px;
     text-align: center;
-    border-bottom: 1px solid #049813;
-    border-radius: 5px 5px 0 0;
 }
 
 .wrapper .form {

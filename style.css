@@ -79,7 +79,7 @@ body {
 }
 
 .wrapper .title {
-    background: #049813;
+    background: #207290;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -816,3 +816,16 @@ span.user {
 		display: none;
 	}
 }
+.profile-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 40px;
+  }
+  
+  
+  .search-box {
+	background: #fafafa;
+	padding: 10px 13px;
+	
+	
+  }

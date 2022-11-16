@@ -41,14 +41,41 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #ccc;
 }
-
+.phone{
+	position: relative;
+  width: 100%;
+}
 .wrapper {
     width: 370px;
     background: #fff;
     border-radius: 5px;
     border: 8px solid rgb(0, 0, 0);
-    border-top: 0px;
-    position: absolute;
+}
+.appy-button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: Transparent;
+}
+.gAppy{
+	border-radius: 40px;
+
+
+}
+.home-button{
+	position: absolute;
+	top: 97%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: white;
+	border: none;
+	width: 160px;
+	border-radius: 25px;
+	height:10px;
+
 }
 
 .wrapper .title {
